@@ -18,5 +18,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.2"
   s.requires_arc = true
 
+  s.swift_version = "4.2"
+
   s.source_files = 'JWTDecode/*.swift'
 end
